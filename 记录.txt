@@ -1,0 +1,28 @@
+var myname: string = "yue fei yu";
+ 
+
+var alias: any = "lulu";//可以为变量复任何类型值
+
+
+var age: number = 13;
+
+
+var man: boolean = true;
+
+f
+unction tes(name:string): void {} // 改方法不需要返回值
+
+ 
+//自定义类型
+class Person{
+    name: string;
+    age: number;
+}
+
+
+var wangwu: Person = new Person();
+
+wangwu.name = "wangwu";
+wangwu.age = 18;
+
+
